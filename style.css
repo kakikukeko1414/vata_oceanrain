@@ -1,0 +1,33 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+h1 {
+  margin: 0;
+  padding: 24px;
+  color: #fff;
+  font-size: clamp(24px, 3.4vw, 58px);
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
